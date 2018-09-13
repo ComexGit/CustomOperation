@@ -13,6 +13,10 @@
 		C4ADCA18214A388D00442972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4ADCA17214A388D00442972 /* Assets.xcassets */; };
 		C4ADCA1B214A388D00442972 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4ADCA19214A388D00442972 /* LaunchScreen.storyboard */; };
 		C4ADCA1E214A388D00442972 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ADCA1D214A388D00442972 /* main.m */; };
+		C4ADCA7B214A4F5800442972 /* STOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ADCA7A214A4F5800442972 /* STOperation.m */; };
+		C4ADCA7E214A51DD00442972 /* STImageDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ADCA7D214A51DD00442972 /* STImageDownloadOperation.m */; };
+		C4ADCA81214A608900442972 /* SyncOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ADCA80214A608900442972 /* SyncOperation.m */; };
+		C4ADCA84214A60A200442972 /* AsyncOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ADCA83214A60A200442972 /* AsyncOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		C4ADCA1A214A388D00442972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4ADCA1C214A388D00442972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4ADCA1D214A388D00442972 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4ADCA79214A4F5800442972 /* STOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STOperation.h; sourceTree = "<group>"; };
+		C4ADCA7A214A4F5800442972 /* STOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STOperation.m; sourceTree = "<group>"; };
+		C4ADCA7C214A51DD00442972 /* STImageDownloadOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STImageDownloadOperation.h; sourceTree = "<group>"; };
+		C4ADCA7D214A51DD00442972 /* STImageDownloadOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STImageDownloadOperation.m; sourceTree = "<group>"; };
+		C4ADCA7F214A608900442972 /* SyncOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SyncOperation.h; sourceTree = "<group>"; };
+		C4ADCA80214A608900442972 /* SyncOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SyncOperation.m; sourceTree = "<group>"; };
+		C4ADCA82214A60A200442972 /* AsyncOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AsyncOperation.h; sourceTree = "<group>"; };
+		C4ADCA83214A60A200442972 /* AsyncOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsyncOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,14 @@
 			children = (
 				C4ADCA0E214A388C00442972 /* AppDelegate.h */,
 				C4ADCA0F214A388C00442972 /* AppDelegate.m */,
+				C4ADCA79214A4F5800442972 /* STOperation.h */,
+				C4ADCA7A214A4F5800442972 /* STOperation.m */,
+				C4ADCA7C214A51DD00442972 /* STImageDownloadOperation.h */,
+				C4ADCA7D214A51DD00442972 /* STImageDownloadOperation.m */,
+				C4ADCA7F214A608900442972 /* SyncOperation.h */,
+				C4ADCA80214A608900442972 /* SyncOperation.m */,
+				C4ADCA82214A60A200442972 /* AsyncOperation.h */,
+				C4ADCA83214A60A200442972 /* AsyncOperation.m */,
 				C4ADCA11214A388C00442972 /* ViewController.h */,
 				C4ADCA12214A388C00442972 /* ViewController.m */,
 				C4ADCA14214A388C00442972 /* Main.storyboard */,
@@ -141,6 +161,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4ADCA81214A608900442972 /* SyncOperation.m in Sources */,
+				C4ADCA7B214A4F5800442972 /* STOperation.m in Sources */,
+				C4ADCA84214A60A200442972 /* AsyncOperation.m in Sources */,
+				C4ADCA7E214A51DD00442972 /* STImageDownloadOperation.m in Sources */,
 				C4ADCA13214A388C00442972 /* ViewController.m in Sources */,
 				C4ADCA1E214A388D00442972 /* main.m in Sources */,
 				C4ADCA10214A388C00442972 /* AppDelegate.m in Sources */,
